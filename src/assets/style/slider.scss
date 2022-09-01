@@ -1,0 +1,30 @@
+.slider-nest {
+  height: 6px;
+  display: flex;
+
+  width: 100px;
+  background-color: gray;
+  border-radius: 40px;
+  position: relative;
+}
+
+.slider-cover {
+  height: 6px;
+  display: flex;
+
+  width: 50%;
+  background-color: blue;
+  border-radius: 40px;
+  position: relative;
+}
+
+.slider-handhold {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border: 2px solid blue;
+  border-radius: 32px;
+  right: 0;
+  transform: translate(0, -12px);
+}
